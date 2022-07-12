@@ -127,10 +127,18 @@ $cor5: #333533;
   border: solid white 1px;
 }
 
-.productImage img{
-  border-radius: 20px 20px 0px 0px;
+.productImage{
+  background: black;
   height: 500px;
-  width: 350px;
+  width: 352px;
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+}
+
+.productImage img{
+  
+  width: 400px;
+
 }
 
 .movieDetail h3{
